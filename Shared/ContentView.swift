@@ -14,6 +14,10 @@ struct ContentView: View {
                 Image(systemName: "waveform.circle.fill")
                 Text("iBeacons")
             }
+            BleView().tabItem {
+                Image(systemName: "waveform.circle.fill")
+                Text("BLE")
+            }
         }
     }
 }
